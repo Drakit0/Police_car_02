@@ -1,21 +1,32 @@
-﻿namespace Practice2
-{
+﻿namespace Practice1
+    {
     class PoliceCar : VehicleWithPlate
     {
         //constant string as TypeOfVehicle wont change allong PoliceCar instances
         private const string typeOfVehicle = "Police Car"; 
         private bool isPatrolling;
+        private bool hasRadar;
         private SpeedRadar speedRadar;
+        private AlcoholRadar alcoholRadar;
 
-        public PoliceCar(string plate) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, string radarType = null) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
-            speedRadar = new SpeedRadar();
+            hasRadar = false;
+
+            if (radarType == "Speed") {
+                speedRadar = new SpeedRadar();
+                hasRadar = true;
+            }
+            else if (radarType == "Alcohol") {
+                alcoholRadar = new AlcoholRadar();
+                hasRadar = true;
+            }
         }
 
         public void UseRadar(VehicleWithPlate vehicle)
         {
-            if (isPatrolling)
+            if (isPatrolling & hasRadar)
             {
                 speedRadar.TriggerRadar(vehicle);
                 string meassurement = speedRadar.GetLastReading();
@@ -60,10 +71,12 @@
 
         public void PrintRadarHistory()
         {
-            Console.WriteLine(WriteMessage("Report radar speed history:"));
-            foreach (float speed in speedRadar.SpeedHistory)
-            {
-                Console.WriteLine(speed);
+            if (hasRadar) { 
+                Console.WriteLine(WriteMessage("Report radar speed history:"));
+                foreach (float speed in speedRadar.ValuesHistory)
+                {
+                    Console.WriteLine(speed);
+                }
             }
         }
     }

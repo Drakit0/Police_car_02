@@ -1,12 +1,14 @@
-﻿namespace Practice2 {
+﻿namespace Practice1 {
     abstract class Vehicle {
         private string typeOfVehicle;
         private float alcohol;
         private float speed;
 
-        public Vehicle(string typeOfVehicle) {
+        public Vehicle(string typeOfVehicle, float alcohol = 0.0f) {
             this.typeOfVehicle = typeOfVehicle;
             speed = 0f;
+            this.alcohol = alcohol;
+
         }
 
         public string GetTypeOfVehicle() {

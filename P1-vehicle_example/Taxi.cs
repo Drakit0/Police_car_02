@@ -1,4 +1,4 @@
-﻿namespace Practice2
+﻿namespace Practice1
 {
     class Taxi : VehicleWithPlate {
         //constant string as TypeOfVehicle wont change allong PoliceCar instances.

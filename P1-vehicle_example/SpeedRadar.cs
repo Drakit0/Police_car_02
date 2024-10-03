@@ -1,42 +1,27 @@
-﻿namespace Practice2
-{
-    class SpeedRadar : IMessageWritter
-    {
-        //Radar doesn't know about Vechicles, just speed and plates
-        private string plate;
-        private float speed;
-        private float legalSpeed = 50.0f;
-        public List<float> SpeedHistory { get; private set; }
+﻿namespace Practice1 {
+    class SpeedRadar : Radar, IMessageWritter {
 
-        public SpeedRadar()
-        {
-            plate = "";
-            speed = 0f;
-            SpeedHistory = new List<float>();
-        }
+        private const float legalSpeed = 50.0f;
 
-        public void TriggerRadar(VehicleWithPlate vehicle)
-        {
+        public SpeedRadar() : base(legalSpeed) {}
+
+        public override void TriggerRadar(VehicleWithPlate vehicle) {
             plate = vehicle.GetPlate();
-            speed = vehicle.GetSpeed();
-            SpeedHistory.Add(speed);
+            value = vehicle.GetSpeed();
+            ValuesHistory.Add(value);
         }
-        
-        public string GetLastReading()
-        {
-            if (speed > legalSpeed)
-            {
+
+        public override string GetLastReading() {
+            if (base.value > legalSpeed) {
                 return WriteMessage("Catched above legal speed.");
             }
-            else
-            {
+            else {
                 return WriteMessage("Driving legally.");
             }
         }
 
-        public virtual string WriteMessage(string radarReading)
-        {
-            return $"Vehicle with plate {plate} at {speed.ToString()} km/h. {radarReading}";
+        public virtual string WriteMessage(string radarReading) {
+            return $"Vehicle with plate {plate} at {value.ToString()} km/h. {radarReading}";
         }
     }
 }

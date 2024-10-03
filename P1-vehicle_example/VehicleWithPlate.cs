@@ -1,8 +1,8 @@
-﻿namespace Practice2 {
+﻿namespace Practice1 {
     abstract class VehicleWithPlate : Vehicle, IMessageWritter{
 
-        private string typeOfVehicle;
         private string plate;
+        private string typeOfVehicle;
 
         public VehicleWithPlate(string typeOfVehicle, string plate) : base(typeOfVehicle){
             this.typeOfVehicle = typeOfVehicle;
