@@ -2,12 +2,12 @@
     class City: IMessageWritter {
 
         private string cityName;
-        private List<string> taxyLicenses;
+        private List<string> taxiLicenses;
         private List<PoliceStation> policeStations; 
 
         public City(string cityName) {
             this.cityName = cityName;
-            taxyLicenses = new List<string>();
+            taxiLicenses = new List<string>();
             policeStations = new List<PoliceStation>();
         }
 
@@ -17,12 +17,12 @@
         }
 
         public void RegisterTaxiLicense(string license) {
-            taxyLicenses.Add(license);
+            taxiLicenses.Add(license);
             Console.WriteLine(WriteMessage($"Taxi license {license} registered."));
         }
 
         public void TakeTaxiLicense(string license) {
-            taxyLicenses.Remove(license);
+            taxiLicenses.Remove(license);
             Console.WriteLine(WriteMessage($"Taxi license {license} taken."));
         }
 

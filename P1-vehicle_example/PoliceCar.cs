@@ -3,13 +3,13 @@
 namespace Practice1 {
     class PoliceCar : VehicleWithPlate {
 
-        private const string typeOfVehicle = "Police Car";
-        private bool isPatrolling;
-        private string radarType;
         private bool isChasing;
+        private string radarType;
+        private bool isPatrolling;
         private string chasedVehicle;
         private SpeedRadar speedRadar;
         private AlcoholRadar alcoholRadar;
+        private const string typeOfVehicle = "Police Car";
 
         public PoliceCar(string plate, string radarType = null) : base(typeOfVehicle, plate) {
             isPatrolling = false;

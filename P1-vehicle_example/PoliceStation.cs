@@ -26,6 +26,7 @@
 
                 foreach (PoliceCar policeCar in policeCars) {
                     policeCar.ChaseVehicle(plate);
+
                     if (policeCar.IsPatrolling() && !policeCar.IsChasing()) {
                         freePoliceCars.Add(policeCar);
                     }

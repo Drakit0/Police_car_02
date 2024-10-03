@@ -1,0 +1,31 @@
+*** Diagrama UML ***
+
+Se encuentra contenido en "taxi_cop.drawio"
+
+*** Pregunta 6 ***
+
+Se cumplen casi todos los principios SOLID:
+
+ - Single Responsability Principle: Las clases tienen una única responsabilidad en base al 
+objeto que define, ninguno edita o modifica comportamientos de objetos externos y cada función
+tiene un único objetivo.
+
+ - Open/Close Principle: Se cumple privatizando los atributos pero manteniendo las funciones
+públicas, al igual que con la herencia de clases.
+
+ - Liskov Substitution Principle: Para cumplir este principio se realiza una división entre 
+VehicleWithPlate y VehicleNoPlate (procedentes ambas de Vehicle). Siendo que Scooter está
+implementado como VehicleNoPlate.
+
+ - Interface Segregation Principle: No se cumple por haber implementado AlcoholRadar y SpeedRadar
+ya que no se usa el radar de alcohol, si se hubiera mantenido en SpeedRadar si que se mantendría
+este principio.
+
+ - Dependency Inversion Principle: Las clases de alto nivel, como City y PoliceStation no dependen
+de los vehículos o radares.
+
+
+*** Pregunta 7 ***
+
+Si no se hubiera implementado el Radar como herencia de dos clases, de Radar que sobreescribe
+sus métodos, se incumpliría el principio de Single Responsability.

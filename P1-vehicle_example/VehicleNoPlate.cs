@@ -1,5 +1,5 @@
 ﻿namespace Practice1 {
-      class VehicleNoPlate : Vehicle, IMessageWritter {
+      class VehicleNoPlate : Vehicle, IMessageWritter { //Scooter to respect the Liskov Substitution Principle
 
         private string typeOfVehicle;
         public VehicleNoPlate(string typeOfVehicle) : base(typeOfVehicle) {

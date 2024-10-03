@@ -9,15 +9,14 @@
             this.plate = plate;
         }
 
-        public override string ToString() {
-            return $"{GetTypeOfVehicle()}";
-        }
-
         public string GetPlate(){
             return plate;
         }
 
-        //Implment interface with Vechicle message structure
+        public override string ToString() {
+            return $"{GetTypeOfVehicle()}";
+        }
+
         public string WriteMessage(string message){
             return $"{this} with plate {GetPlate()}: {message}";
         }
