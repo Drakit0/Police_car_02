@@ -1,0 +1,15 @@
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\bin\Debug\net8.0\Practice2.exe
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\bin\Debug\net8.0\Practice2.deps.json
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\bin\Debug\net8.0\Practice2.runtimeconfig.json
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\bin\Debug\net8.0\Practice2.dll
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\bin\Debug\net8.0\Practice2.pdb
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\obj\Debug\net8.0\Practice2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\obj\Debug\net8.0\Practice2.AssemblyInfoInputs.cache
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\obj\Debug\net8.0\Practice2.AssemblyInfo.cs
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\obj\Debug\net8.0\Practice2.csproj.CoreCompileInputs.cache
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\obj\Debug\net8.0\Practice2.sourcelink.json
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\obj\Debug\net8.0\Practice2.dll
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\obj\Debug\net8.0\refint\Practice2.dll
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\obj\Debug\net8.0\Practice2.pdb
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\obj\Debug\net8.0\Practice2.genruntimeconfig.cache
+C:\Users\pablo\OneDrive\Escritorio\Archivo\Safe place\Universidad\iMAT\3º\Paradigmas\Prácticas\Práctica 2\P1-vehicle_example\obj\Debug\net8.0\ref\Practice2.dll

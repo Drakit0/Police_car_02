@@ -1,4 +1,4 @@
-﻿namespace Practice1
+﻿namespace Practice2
 {
     class SpeedRadar : IMessageWritter
     {
@@ -15,7 +15,7 @@
             SpeedHistory = new List<float>();
         }
 
-        public void TriggerRadar(Vehicle vehicle)
+        public void TriggerRadar(VehicleWithPlate vehicle)
         {
             plate = vehicle.GetPlate();
             speed = vehicle.GetSpeed();

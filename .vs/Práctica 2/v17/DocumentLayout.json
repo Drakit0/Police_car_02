@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\PoliceCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:P1-vehicle_example\\PoliceCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\Vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:P1-vehicle_example\\Vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\SpeedRadar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:P1-vehicle_example\\SpeedRadar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\VehicleNoPlate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:P1-vehicle_example\\VehicleNoPlate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\VehicleWithPlate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:P1-vehicle_example\\VehicleWithPlate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:P1-vehicle_example\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PoliceCar.cs",
-              "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\PoliceCar.cs",
-              "RelativeDocumentMoniker": "P1-vehicle_example\\PoliceCar.cs",
-              "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\PoliceCar.cs",
-              "RelativeToolTip": "P1-vehicle_example\\PoliceCar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T21:35:12.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\Vehicle.cs",
               "RelativeDocumentMoniker": "P1-vehicle_example\\Vehicle.cs",
               "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\Vehicle.cs",
               "RelativeToolTip": "P1-vehicle_example\\Vehicle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T21:34:19.28Z",
+              "WhenOpened": "2024-10-03T08:22:59.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SpeedRadar.cs",
-              "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\SpeedRadar.cs",
-              "RelativeDocumentMoniker": "P1-vehicle_example\\SpeedRadar.cs",
-              "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\SpeedRadar.cs",
-              "RelativeToolTip": "P1-vehicle_example\\SpeedRadar.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "VehicleWithPlate.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\VehicleWithPlate.cs",
+              "RelativeDocumentMoniker": "P1-vehicle_example\\VehicleWithPlate.cs",
+              "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\VehicleWithPlate.cs",
+              "RelativeToolTip": "P1-vehicle_example\\VehicleWithPlate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T11:12:29.772Z",
+              "WhenOpened": "2024-10-03T08:16:34.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehicleNoPlate.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\VehicleNoPlate.cs",
+              "RelativeDocumentMoniker": "P1-vehicle_example\\VehicleNoPlate.cs",
+              "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\VehicleNoPlate.cs",
+              "RelativeToolTip": "P1-vehicle_example\\VehicleNoPlate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T08:16:29.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\Main.cs",
+              "RelativeDocumentMoniker": "P1-vehicle_example\\Main.cs",
+              "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Archivo\\Safe place\\Universidad\\iMAT\\3\u00BA\\Paradigmas\\Pr\u00E1cticas\\Pr\u00E1ctica 2\\P1-vehicle_example\\Main.cs",
+              "RelativeToolTip": "P1-vehicle_example\\Main.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T08:15:00.035Z",
               "EditorCaption": ""
             }
           ]

@@ -1,4 +1,4 @@
-﻿namespace Practice1
+﻿namespace Practice2
 {
     internal class Program
     {
@@ -35,6 +35,7 @@
 
             policeCar1.PrintRadarHistory();
             policeCar2.PrintRadarHistory();
+            Console.ReadLine();
 
         }
     }
