@@ -1,4 +1,6 @@
-﻿namespace Practice1 {
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace Practice1 {
     class PoliceCar : VehicleWithPlate {
 
         private const string typeOfVehicle = "Police Car";
@@ -120,6 +122,17 @@
             else {
                 Console.WriteLine(WriteMessage($"is not patrolling."));
             }
+        }
+
+        public override string ToString() {
+            if (radarType is not null) {
+                return $"{this.GetTypeOfVehicle()} with {radarType.ToLower()} radar";
+            }
+
+            else {
+                return $"{this.GetTypeOfVehicle()} without radar";
+            }
+            
         }
     }
 }

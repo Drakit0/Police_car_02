@@ -1,15 +1,23 @@
 ﻿namespace Practice1 {
     class PoliceStation: IMessageWritter {
 
+        private string stationName;
         private List<PoliceCar> policeCars;
         private Dictionary<string, List<PoliceCar> > chasedVehicles;
 
-        public PoliceStation() {
+        public PoliceStation(string stationName) {
             policeCars = new List<PoliceCar>();
+            chasedVehicles = new Dictionary<string, List<PoliceCar>>();
+            this.stationName = stationName;
+        }
+
+        public string GetStationName() {
+            return stationName;
         }
 
         public void AddPoliceCar(PoliceCar policeCar) {
-            policeCars.Add(policeCar);
+        policeCars.Add(policeCar);
+        Console.WriteLine(WriteMessage($"{policeCar} with plate {policeCar.GetPlate()} registered."));
         }
 
         public void SendInfraction(string plate) {
@@ -21,11 +29,11 @@
                     if (policeCar.IsPatrolling() && !policeCar.IsChasing()) {
                         freePoliceCars.Add(policeCar);
                     }
-                chasedVehicles[plate] = freePoliceCars;
-                
-                Console.WriteLine(WriteMessage($"Infraction sent to {freePoliceCars} for vehicle with plate {plate}."));
-
                 }
+
+                chasedVehicles[plate] = freePoliceCars;
+
+                Console.WriteLine(WriteMessage($"Infraction sent for vehicle with plate {plate}."));
             }
         }
 
@@ -38,7 +46,7 @@
 
         }
         public string WriteMessage(string message) {
-            return $"Police station: {message}";
+            return $"Police station {this.stationName} : {message}";
         }
     }
 }
